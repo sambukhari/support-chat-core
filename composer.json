@@ -1,20 +1,24 @@
 {
-    "name": "ezead/support-chat-core",
-    "description": "Ezead Support Chat Core Package",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Ezead\\SupportChatCore\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ezead\\SupportChatCore\\SupportChatCoreServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "ezead/support-chat-core",
+  "description": "Ezead Support Chat Core (Realtime support chat: conversations, messages, agent panel, SSE events)",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ezead\\SupportChatCore\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ezead\\SupportChatCore\\SupportChatCoreServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
