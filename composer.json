@@ -1,0 +1,20 @@
+{
+    "name": "ezead/support-chat-core",
+    "description": "Ezead Support Chat Core Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ezead\\SupportChatCore\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ezead\\SupportChatCore\\SupportChatCoreServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

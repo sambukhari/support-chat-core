@@ -1,0 +1,1 @@
+console.log('Support Chat Core Loaded');
